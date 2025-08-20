@@ -1,6 +1,6 @@
 import requests
 #Using api url to get puuid for matches
-api_key = "RGAPI-210acbc8-b269-482a-b52d-a76c016bdc54"
+api_key = "RGAPI-b0646691-5a5d-44ea-a82f-4fde409c4b28"
 api_url = "https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/jonfam/jon?api_key=RGAPI-210acbc8-b269-482a-b52d-a76c016bdc54"
 response = requests.get(api_url)
 player_info = response.json()
